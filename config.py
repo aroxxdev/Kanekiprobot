@@ -69,7 +69,7 @@ GIT_TOKEN = getenv(
 # -------------------------------------------------------------------------
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/savage_networks")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/anime_savage_group")
-REPORT = getenv("REPORT", "https://t.me/anya_forger_chat"
+REPORT = getenv("REPORT", "https://t.me/anya_forger_chat")
 UPDATES = getenv("UPDATES", "https://t.me/anya_forger_updates")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
