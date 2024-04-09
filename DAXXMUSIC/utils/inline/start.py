@@ -25,8 +25,8 @@ def private_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], url=config.updates),
-            InlineKeyboardButton(text=_["S_B_6"], url=config.report),
+            InlineKeyboardButton(text=_["S_B_5"], url=config.UPDATES),
+            InlineKeyboardButton(text=_["S_B_6"], url=config.REPORT),
         ],
         [
             InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper"),
