@@ -3,6 +3,9 @@ from pyrogram.types import InlineKeyboardButton
 import config
 from DAXXMUSIC import app
 
+updates = "https://t.me/anya_forger_updates"
+report = "https://t.me/anya_forger_chat"
+
 
 def start_panel(_):
     buttons = [
@@ -25,8 +28,8 @@ def private_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
-            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text=_["S_B_5"], user_id=config.updates),
+            InlineKeyboardButton(text=_["S_B_6"], url=config.report),
         ],
         [
             InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper"),
