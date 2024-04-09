@@ -49,7 +49,7 @@ async def ctest(_, message):
     try:
      #  is_selected = await get_couple(cid, today)
      #  if not is_selected:
-         msg = await message.reply_text("ɢᴇɴᴇʀᴀᴛɪɴɢ ᴄᴏᴜᴘʟᴇs ɪᴍᴀɢᴇ...")
+         msg = await message.reply_text("𝐋ᴇᴛ'ꜱ 𝐌ᴀᴋᴇ 𝐀 𝐂ᴏᴜᴘʟᴇꜱ💘")
          #GET LIST OF USERS
          list_of_users = []
 
