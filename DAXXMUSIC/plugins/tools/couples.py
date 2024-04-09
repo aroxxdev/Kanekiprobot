@@ -14,8 +14,8 @@ from DAXXMUSIC.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ",
-            url=f"https://t.me/anya_forger_chat",
+            text="ᴜᴘᴅᴀᴛᴇꜱ",
+            url=f"https://t.me/anya_forger_updates",
         ),
     ],
 ]
