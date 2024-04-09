@@ -3,9 +3,6 @@ from pyrogram.types import InlineKeyboardButton
 import config
 from DAXXMUSIC import app
 
-report = getenv("report", "https://t.me/anya_forger_chat")
-updates = getenv("updates", "https://t.me/anya_forger_updates")
-
 
 def start_panel(_):
     buttons = [
