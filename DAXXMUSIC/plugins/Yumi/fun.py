@@ -11,9 +11,9 @@ async def es_gif(_, message):
 
     if response.status_code == 200:
         data = response.json()
-        image = data["image"]
+        image = data["gif"]
         await message.reply_video(
-            image,
+            gif,
             caption="BY @Anya_forger_probot",  # Add spoiler caption
             parse_mode=ParseMode.MARKDOWN # Enable Markdown parsing
         )
