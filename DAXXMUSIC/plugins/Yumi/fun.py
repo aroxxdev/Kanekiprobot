@@ -13,7 +13,7 @@ def get_waifu(client, message):
     response = requests.get(url).json()
     up = response['url']
     if up:
-        message.reply_video(up,caption="BY @Anya_forger_probot)
+        message.reply_video(up,caption="BY @Anya_forger_probot",
     else:
         message.reply("Request failed try /again")
 
@@ -26,7 +26,7 @@ def get_waifu(client, message):
     response = requests.get(url).json()
     up = response['url']
     if up:
-        message.reply_video(up,caption="BY @ushio_kofun_bot)
+        message.reply_video(up,caption="BY @Anya_forger_probot",
     else:
         message.reply("Request failed try /again")
 
@@ -39,7 +39,7 @@ def get_waifu(client, message):
     response = requests.get(url).json()
     up = response['url']
     if up:
-        message.reply_video(up,caption="BY @anya_forger_probot)
+        message.reply_video(up,caption="BY @anya_forger_probot",
     else:
         message.reply("Request failed try /again")
       
@@ -53,7 +53,7 @@ def get_waifu(client, message):
     response = requests.get(url).json()
     up = response['url']
     if up:
-        message.reply_video(up,caption="BY @Anya_Forger_probot)
+        message.reply_video(up,caption="BY @Anya_Forger_probot",
     else:
         message.reply("Request failed try /again")
       
@@ -67,7 +67,7 @@ def get_waifu(client, message):
     response = requests.get(url).json()
     up = response['url']
     if up:
-        message.reply_video(up,caption="BY @Anya_Forger_probot)
+        message.reply_video(up,caption="BY @Anya_Forger_probot",
     else:
         message.reply("Request failed try /again")
 
@@ -81,7 +81,7 @@ def get_waifu(client, message):
     response = requests.get(url).json()
     up = response['url']
     if up:
-        message.reply_video(up,caption="BY @Anya_Forger_probot)
+        message.reply_video(up,caption="BY @Anya_Forger_probot",
     else:
         message.reply("Request failed try /again")
 
@@ -95,6 +95,6 @@ def get_waifu(client, message):
     response = requests.get(url).json()
     up = response['url']
     if up:
-        message.reply_video(up,caption="BY @Anya_Forger_probot)
+        message.reply_video(up,caption="BY @Anya_Forger_probot",
     else:
         message.reply("Request failed try /again")
