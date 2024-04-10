@@ -6,7 +6,7 @@ from DAXXMUSIC import app
 @app.on_message(filters.command("kiss"))
 async def es_url(_, message):
     try:
-        api = "https://api.waifu.pics/sfw/wink"
+        api = "https://api.otakugifs.xyz/gif?reaction=kiss&format=gif"
         get_kiss = get(api)
         get_json = get_kiss.json()
         get_gif_url = get_json["url"]
