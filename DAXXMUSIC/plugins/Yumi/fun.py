@@ -13,7 +13,7 @@ async def es_url(_, message):
         data = response.json()
         image = data["url"]
         await message.reply_video(
-            gif,
+            url,
             caption="BY @Anya_forger_probot",  # Add spoiler caption
             parse_mode=ParseMode.MARKDOWN # Enable Markdown parsing
         )
