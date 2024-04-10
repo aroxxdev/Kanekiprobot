@@ -7,7 +7,7 @@ from DAXXMUSIC import app
 
 @app.on_message(filters.command("kiss"))
 async def es_img(_, message):
-    url = "http://api.nekos.fun:8080/api/kiss"
+    url = "https://api.waifu.pics/sfw/kiss"
     response = requests.get(url)
 
     if response.status_code == 200:
