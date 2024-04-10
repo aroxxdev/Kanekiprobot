@@ -5,7 +5,7 @@ from pyrogram.types import Message
 from DAXXMUSIC import app
 
 @app.on_message(filters.command("kiss"))
-async def es_img(_, message):
+async def es_gif(_, message):
     url = "https://api.waifu.pics/sfw/kiss"
     response = requests.get(url)
 
