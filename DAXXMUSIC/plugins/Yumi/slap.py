@@ -1,22 +1,18 @@
-
+from pyrogram import Client, filters
 import requests
-from pyrogram import filters
-from pyrogram.enums import ParseMode
-from pyrogram.types import Message
+import random
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup  
 from DAXXMUSIC import app
 
-@app.on_message(filters.command("slap"))
-async def es_img(_, message):
-    url = "https://api.waifu.pics/sfw/slap"
-    response = requests.get(url)
+regex_gif = ["slap"]
+pht = random.choice(regex_gif)
+url = f"https://api.waifu.pics/sfw/{pht}"
 
-    if response.status_code == 200:
-        data = response.json()
-        image = data["image"]
-        await message.reply_video(
-            image,
-            caption="BY @Anya_Forger_ProBot",  # Add spoiler caption
-            parse_mode=ParseMode.MARKDOWN # Enable Markdown parsing
-        )
+@app.on_message(filters.command("slap"))
+def get_waifu(client, message):
+    response = requests.get(url).json()
+    up = response['url']
+    if up:
+        message.reply_video(up,caption="BY @Anya_forger_probot)
     else:
-        await message.reply_text("Website gyi")
+        message.reply("Request failed try /again")
