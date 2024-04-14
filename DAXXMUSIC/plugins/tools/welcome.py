@@ -52,11 +52,11 @@ from DAXXMUSIC.utils.database import get_assistant, is_active_chat
 
 
 random_photo = [
-    "https://telegra.ph/file/da2a329b4b41e770f8353.jpg",
-    "https://telegra.ph/file/da2a329b4b41e770f8353.jpg",
-    "https://telegra.ph/file/da2a329b4b41e770f8353.jpg",
-    "https://telegra.ph/file/da2a329b4b41e770f8353.jpg",
-    "https://telegra.ph/file/da2a329b4b41e770f8353.jpg",
+    "https://telegra.ph/file/3fa10fd44b51c40f8b487.jpg",
+    "https://telegra.ph/file/3fa10fd44b51c40f8b487.jpg",
+    "https://telegra.ph/file/3fa10fd44b51c40f8b487.jpg",
+    "https://telegra.ph/file/3fa10fd44b51c40f8b487.jpg",
+    "https://telegra.ph/file/3fa10fd44b51c40f8b487.jpg",
 ]
 # --------------------------------------------------------------------------------- #
 
