@@ -5,9 +5,9 @@ from DAXXMUSIC.plugins.tools.pretenderdb import impo_off, impo_on, check_pretend
 from DAXXMUSIC import app
 
 MISHI = [
-    "https://telegra.ph/file/da2a329b4b41e770f8353.jpg",
-    "https://telegra.ph/file/da2a329b4b41e770f8353.jpg",
-    "https://telegra.ph/file/da2a329b4b41e770f8353.jpg",
+    "https://telegra.ph/file/3fa10fd44b51c40f8b487.jpg",
+    "https://telegra.ph/file/3fa10fd44b51c40f8b487.jpg",
+    "https://telegra.ph/file/3fa10fd44b51c40f8b487.jpg",
 ]
 
 
@@ -15,8 +15,8 @@ ROY = [
     [
         InlineKeyboardButton(
             text="ᴀᴅᴅ ᴍᴇ",
-            url=f"https://t.me/Anya_Forger_ProBot?startgroup=true"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/Anya_forger_updates")
+            url=f"https://t.me/Ken_Kaneki_probot?startgroup=true"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/kaneki_ghoul_update")
     ],
 ]
 
